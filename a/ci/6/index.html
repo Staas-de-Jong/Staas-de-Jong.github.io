@@ -1,0 +1,54 @@
+<html>
+
+  <!-- Shows a predefined image sequence in the browser, then quits. -->
+
+
+  <script language="JavaScript">
+  <!--
+
+
+  // define and cache the image sequence
+  if (document.images)
+  {
+    // define the sequence of images
+    imgArray =
+    [ { "name":"1.png" },
+      { "name":"2.png" }
+    ];
+    imgIndex = 0;
+
+    // make sure all images are in local cache before display begins
+    cachingArray = new Array ( );
+    for (i = 0; i < imgArray.length; i++)
+    { cachingArray[i] = new Image;
+      cachingArray[i].src = imgArray[i]["name"];
+    }
+
+  } // (if (document.images))
+
+
+  function nextImage ( )
+  // displays the next image in the sequence, and prepares for its successor
+  { if (imgIndex < imgArray.length)
+    { document.image.src = imgArray[imgIndex]["name"];
+      imgIndex++;
+    }
+    else // last image has been displayed
+    { self.close ( ); // close browser window
+    }
+  }
+
+  -->
+  </script>
+
+
+
+  <body bgcolor="black" text="black" onload="nextImage ( )"
+        marginwidth="0" marginheight="0" leftmargin="0" topmargin="0">
+
+    <img name="image" border="0" onClick="nextImage ( )";>
+
+  </body>
+
+
+</html>

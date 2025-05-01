@@ -1,0 +1,214 @@
+
+.hidden
+{ display: none;
+}
+.caption
+{ font-family: Arial, Helvetica, sans-serif;
+  font-size: 12pt;
+}
+.longtext
+{ font-family: Times, serif;
+  font-size: 13pt;
+}
+.text-justified
+{ text-align: justify;
+}
+.text-centered
+{ text-align: center;
+}
+.text-right
+{ text-align: right;
+}
+.box-shadow-omni
+{ box-shadow: 0px 4px  8px rgba(0, 0, 0, 0.2), /* narrow component for relatively sharp visual delineation */
+              0px 6px 20px rgba(0, 0, 0, 0.2); /* wide component for stronger spatial raising effect */
+}
+
+
+body.default
+{ background-image: url('bgtile_default.png');
+  background-color: #ffffff;
+  color: #000000;
+  margin: 24px 24px 24px 24px;
+}
+body.black-with-margin
+{ background-color: #000000;
+  color: #000000;
+  margin: 60px 60px 60px 60px;
+}
+body.black-no-margin
+{ background-color: #000000;
+  color: #000000;
+  margin: 0px 0px 0px 0px;
+}
+body.no-margin
+{ color: #000000;
+  margin: 0px 0px 0px 0px;
+  overflow: hidden;
+}
+body.no-margin-default-background
+{ background-image: url('bgtile_default.png');
+  color: #000000;
+  margin: 0px 0px 0px 0px;
+  overflow: hidden;
+}
+body.small-margin-default-background
+{ background-image: url('bgtile_default.png');
+  color: #000000;
+  margin: 7px 14px 7px 14px;
+  overflow: hidden;
+}
+body.small-screen-width-auto-columns
+{ -webkit-columns: 312px auto; /* Chrome, Safari, Opera */
+  -moz-columns: 312px auto; /* Firefox */
+  columns: 312px auto;
+}
+body.small-screen-width-single-column
+{ -webkit-columns: 312px 1; /* Chrome, Safari, Opera */
+  -moz-columns: 312px 1; /* Firefox */
+  columns: 312px 1;
+}
+
+
+p.longtext_column
+{ font-family: Times, serif;
+  font-size: 14pt;
+  max-width: 450pt;
+  text-align: justify;
+}
+p.longtext_column_toward_narrow
+{ font-family: Times, serif;
+  font-size: 14pt;
+  max-width: 370pt;
+  text-align: justify;
+}
+p.longtext_column_narrow
+{ font-family: Times, serif;
+  font-size: 14pt;
+  max-width: 270pt;
+  text-align: justify;
+}
+p.longtext_column_wide
+{ font-family: Times, serif;
+  font-size: 14pt;
+  max-width: 530pt;
+  text-align: justify;
+}
+
+
+img.centered-vertically
+{ vertical-align:middle;
+}
+img.vertically-aligned-to-text-top
+{ vertical-align:text-top;
+}
+img.vertically-aligned-to-text-bottom
+{ vertical-align:text-bottom;
+}
+
+
+a:link.default, a:visited.default
+{ color: #339900;
+  text-decoration:none;
+}
+a:link.red, a:visited.red
+{ color: #BF0000;
+  text-decoration:none;
+}
+a:link.bright-red, a:visited.bright-red
+{ color: #FF0000;
+  text-decoration:none;
+}
+a:link.grey, a:visited.grey
+{ color: #808080;
+  text-decoration:none;
+}
+a:link.morelightgrey, a:visited.morelightgrey
+{ color: #c0c0c0;
+  text-decoration:none;
+}
+a:link.white, a:visited.white
+{ color: #ffffff;
+  text-decoration:none;
+}
+a:link.black, a:visited.black
+{ color: #000000;
+  text-decoration:none;
+}
+a:link.stableblue, a:visited.stableblue
+{ color: #3366FF;
+  text-decoration:none;
+}
+a:link.softpurple, a:visited.softpurple
+{ color: darkorchid;
+  text-decoration:none;
+}
+a:link.orange, a:visited.orange
+{ color: darkorange;
+  text-decoration:none;
+}
+a:link.green, a:visited.green
+{ color: forestgreen;
+  text-decoration:none;
+}
+a:link.lightgreen, a:visited.lightgreen
+{ color: #4dbb00;
+  text-decoration:none;
+}
+a:link.bold-leafy-green, a:visited.bold-leafy-green
+{ color: #669149;
+  text-decoration:none;
+  font-weight: bold;
+}
+a:link.old-light-blue, a:visited.old-light-blue
+{ color: #5ba1c6;
+  text-decoration:none;
+}
+a:link.graph-light-blue, a:visited.graph-light-blue
+{ color: #6495ed;
+  text-decoration:none;
+}
+a:link.old-dark-blue, a:visited.old-dark-blue
+{ color: #0050b5;
+  text-decoration:none;
+}
+a:link.old-purple, a:visited.old-purple
+{ color: #7e39a1;
+  text-decoration:none;
+}
+a:link.rose-hip-jam, a:visited.rose-hip-jam
+{ color: #ed7069;
+  text-decoration:none;
+}
+a:link.beach-sand, a:visited.beach-sand
+{ color: #b59c6f;
+  text-decoration:none;
+}
+a:link.blueish-purple, a:visited.blueish-purple
+{ color: #734eeb;
+  text-decoration:none;
+}
+a:link.old-yellow, a:visited.old-yellow
+{ color: #b5a100;
+  text-decoration:none;
+}
+a:link.bold-black, a:visited.bold-black
+{ color: #000000;
+  text-decoration:none;
+  font-weight: bold;
+}
+a:link.cyan, a:visited.cyan
+{ color: #0cc1c3;
+  text-decoration:none;
+}
+
+
+
+iframe.small-screen-width
+{ width: 312px;
+  border: none;
+  overflow: hidden;
+  margin: 12px;
+  vertical-align: top;
+}
+

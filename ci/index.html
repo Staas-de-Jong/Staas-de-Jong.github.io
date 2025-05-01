@@ -1,0 +1,30 @@
+<html>
+
+  <head>
+
+    <title> Staas de Jong - Contact / info </title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+    <link rel="stylesheet" href="../stylesheet.css">
+
+    <base target="_parent">
+    
+    <script language="javascript" type="text/javascript">
+      function setHeightToContents (iFrame)
+      { iFrame.style.height = iFrame.contentWindow.document.body.scrollHeight + 'px';
+      }
+    </script>
+
+  </head>
+
+
+  <body class="default small-screen-width-auto-columns"
+        style="margin:12px; text-align:left; background-image: url('../bgtile_darker.png');"
+        dir="ltr">
+
+    <iframe class="small-screen-width box-shadow-omni" src="content.html" onload="setHeightToContents (this);"> </iframe>
+
+  </body>
+
+</html>
