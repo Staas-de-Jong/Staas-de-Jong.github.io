@@ -1,1 +1,113 @@
-index.html test
+<!DOCTYPE html>
+<html>
+
+  <head>
+    
+    <title> Staas de Jong </title>
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    
+    <link rel="stylesheet" href="stylesheet.css">
+    
+    <script language="javascript" type="text/javascript">
+      function setHeightToContents (iFrame)
+      { iFrame.style.height = iFrame.contentWindow.document.body.scrollHeight + 'px';
+      }
+    </script>
+    
+  </head>
+
+
+  <body class="default small-screen-width-auto-columns"
+        style="margin:12px; text-align:left; background-image: url('bgtile_darker.png');"
+        dir="ltr">
+    
+    <!-- below, iframe height is set to contents automatically, but there is also an explicit value included:
+         this is a best effort to have page spacing be correct ASAP during page loading;
+         motivation: click-through using within-page anchors, when from PDFs, gave incorrect browser viewing position
+    -->
+    
+    <iframe id="my-name"
+            class="small-screen-width box-shadow-omni" src="index/my-name.html"
+            height="48" onload="setHeightToContents (this);">
+    </iframe>
+
+    <iframe id="thesis"
+            class="small-screen-width box-shadow-omni" src="index/thesis.html"
+            height="1060" onload="setHeightToContents (this);">
+    </iframe>
+
+    <iframe id="modeling-bioacoustics"
+            class="small-screen-width box-shadow-omni" src="index/modeling-bioacoustics.html"
+            height="1275" onload="setHeightToContents (this);">
+    </iframe>
+
+    <iframe id="retinal-afterimage"
+            class="small-screen-width box-shadow-omni" src="index/retinal-afterimage.html"
+            height="1060" onload="setHeightToContents (this);">
+    </iframe>
+
+    <iframe id="human-noise"
+            class="small-screen-width box-shadow-omni" src="index/human-noise.html"
+            height="500" onload="setHeightToContents (this);">
+    </iframe>
+
+    <iframe id="ghostfinger"
+            class="small-screen-width box-shadow-omni" src="index/ghostfinger.html"
+            height="870" onload="setHeightToContents (this);">
+    </iframe>
+
+    <iframe id="sonatoids"
+            class="small-screen-width box-shadow-omni" src="index/sonatoids.html"
+            height="905" onload="setHeightToContents (this);">
+    </iframe>
+
+    <iframe id="what-is-music"
+            class="small-screen-width box-shadow-omni" src="index/what-is-music.html"
+            height="1510" onload="setHeightToContents (this);">
+    </iframe>
+
+    <iframe id="tangible-grains"
+            class="small-screen-width box-shadow-omni" src="index/tangible-grains.html"
+            height="910" onload="setHeightToContents (this);">
+    </iframe>
+
+    <iframe id="tensing"
+            class="small-screen-width box-shadow-omni" src="index/tensing.html"
+            height="955" onload="setHeightToContents (this);">
+    </iframe>
+
+    <iframe id="cyclotactor"
+            class="small-screen-width box-shadow-omni" src="index/cyclotactor.html"
+            height="865" onload="setHeightToContents (this);">
+    </iframe>
+
+    <iframe id="ksft"
+            class="small-screen-width box-shadow-omni" src="index/ksft.html"
+            height="940" onload="setHeightToContents (this);">
+    </iframe>
+
+    <iframe id="one-press-control"
+            class="small-screen-width box-shadow-omni" src="index/one-press-control.html"
+            height="770" onload="setHeightToContents (this);">
+    </iframe>
+
+    <iframe id="web-technology"
+            class="small-screen-width box-shadow-omni" src="index/web-technology.html"
+            height="440" onload="setHeightToContents (this);">
+    </iframe>
+
+    <iframe id="personal-art"
+            class="small-screen-width box-shadow-omni" src="index/personal-art.html"
+            height="720" onload="setHeightToContents (this);">
+    </iframe>
+
+    <iframe id="contact-info"
+            class="small-screen-width box-shadow-omni" src="index/contact-info.html"
+            height="48" onload="setHeightToContents (this);">
+    </iframe>
+
+  </body>
+
+
+</html>
