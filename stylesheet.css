@@ -172,6 +172,10 @@ a:link.old-dark-blue, a:visited.old-dark-blue
 { color: #0050b5;
   text-decoration:none;
 }
+a:link.greyish-blue, a:visited.greyish-blue
+{ color: #576278;
+  text-decoration:none;
+}
 a:link.old-purple, a:visited.old-purple
 { color: #7e39a1;
   text-decoration:none;
